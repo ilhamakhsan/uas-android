@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import io.realm.Realm
 
-
 class MainActivity : AppCompatActivity() {
     lateinit var realm : Realm
     override fun onCreate(savedInstanceState: Bundle?) {
